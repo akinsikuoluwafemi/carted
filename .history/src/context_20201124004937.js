@@ -29,7 +29,6 @@ class ProductProvider extends Component {
 
                 ...this.state,
                 handleDetail: this.handleDetail,
-                addToCart: this.addToCart
                 
             }}>
                 {this.props.children}

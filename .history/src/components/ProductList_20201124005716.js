@@ -25,7 +25,7 @@ export default class ProductList extends Component {
                   <ProductConsumer>
                     {(value) => {
                         return value.products.map(product => {
-                            return <Product product={product}/>
+                            
                         });
                     }}
                   </ProductConsumer>
@@ -33,6 +33,7 @@ export default class ProductList extends Component {
               </div>
             </div>
 
+            {/* <Product /> */}
           </>
         );
     }

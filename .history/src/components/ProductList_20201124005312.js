@@ -23,16 +23,15 @@ export default class ProductList extends Component {
                 <Title name="our" title="products" />
                 <div className="row">
                   <ProductConsumer>
-                    {(value) => {
-                        return value.products.map(product => {
-                            return <Product product={product}/>
-                        });
+                    {(hello) => {
+                      return <h1>{hello}</h1>;
                     }}
                   </ProductConsumer>
                 </div>
               </div>
             </div>
 
+            {/* <Product /> */}
           </>
         );
     }
